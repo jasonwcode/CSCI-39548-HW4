@@ -83,6 +83,6 @@ run().catch(console.dir);
 // Make sure you place body-parser before your CRUD handlers!
 app.use(bodyParser.urlencoded({ extended: true }))
 
-app.listen(3000, function () {
-  console.log('listening on 3000')
+app.listen(process.env.PORT || 5000, function () {
+  console.log('listening')
 })
