@@ -1,0 +1,16 @@
+.bigbox {
+  display: flex;
+  justify-content: center;
+  gap: 0px;
+}
+
+.box {
+  width: 33%;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.header {
+  padding: 10px;
+  border: 1px solid black;
+}
